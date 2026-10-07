@@ -1,0 +1,959 @@
+protocol,raw_folder,subject_id,start_tag_index,end_tag_index,start_s,end_s,duration_s,suggested_condition,condition,include,reviewed,note,protocol_version,analysis_start_s,analysis_end_s,analysis_rule,auto_label_status,source_block
+STRESS,S01,S01,0,1,0.0,371.0,371.0,baseline,baseline,1,0,,v1,311.0,371.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S01,S01,1,2,371.0,618.0,247.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S01,S01,2,3,618.0,793.0,175.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S01,S01,3,4,793.0,898.0,105.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S01,S01,4,5,898.0,1338.0,440.0,rest_or_transition,rest,1,0,,v1,1118.0,1338.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S01,S01,5,6,1338.0,1463.0,125.0,stress,stress,1,0,,v1,1338.0,1463.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S01,S01,6,7,1463.0,1770.0,307.0,rest_or_transition,rest,1,0,,v1,1616.5,1770.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S01,S01,7,8,1770.0,1798.0,28.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S01,S01,8,9,1798.0,1836.0,38.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S01,S01,9,10,1836.0,1873.0,37.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S01,S01,10,11,1873.0,1915.0,42.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S01,S01,11,12,1915.0,1947.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S01,S01,12,13,1947.0,1962.0,15.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S02,S02,0,1,0.0,1.0,1.0,baseline,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S02,S02,1,2,1.0,193.0,192.0,rest_or_transition,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S02,S02,2,3,193.0,279.0,86.0,rest_or_transition,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S02,S02,3,4,279.0,395.0,116.0,rest_or_transition,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S02,S02,4,5,395.0,644.0,249.0,rest_or_transition,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S02,S02,5,6,644.0,771.0,127.0,stress,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S02,S02,6,7,771.0,1126.0,355.0,rest_or_transition,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S02,S02,7,8,1126.0,1161.0,35.0,stress,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S02,S02,8,9,1161.0,1189.0,28.0,rest_or_transition,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S02,S02,9,10,1189.0,1223.0,34.0,stress,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S02,S02,10,11,1223.0,1247.0,24.0,rest_or_transition,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S02,S02,11,12,1247.0,1280.0,33.0,stress,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S02,S02,12,13,1280.0,1296.0,16.0,rest_or_transition,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+STRESS,S03,S03,0,1,0.0,278.0,278.0,baseline,baseline,1,0,,v1,218.0,278.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S03,S03,1,2,278.0,465.0,187.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S03,S03,2,3,465.0,552.0,87.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S03,S03,3,4,552.0,656.0,104.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S03,S03,4,5,656.0,912.0,256.0,rest_or_transition,rest,1,0,,v1,784.0,912.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S03,S03,5,6,912.0,1040.0,128.0,stress,stress,1,0,,v1,912.0,1040.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S03,S03,6,7,1040.0,1335.0,295.0,rest_or_transition,rest,1,0,,v1,1187.5,1335.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S03,S03,7,8,1335.0,1369.0,34.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S03,S03,8,9,1369.0,1388.0,19.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S03,S03,9,10,1388.0,1419.0,31.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S03,S03,10,11,1419.0,1449.0,30.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S03,S03,11,12,1449.0,1482.0,33.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S03,S03,12,13,1482.0,1516.0,34.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S04,S04,0,1,0.0,181.0,181.0,baseline,baseline,1,0,,v1,121.0,181.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S04,S04,1,2,181.0,361.0,180.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S04,S04,2,3,361.0,519.0,158.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S04,S04,3,4,519.0,615.0,96.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S04,S04,4,5,615.0,989.0,374.0,rest_or_transition,rest,1,0,,v1,802.0,989.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S04,S04,5,6,989.0,1126.0,137.0,stress,stress,1,0,,v1,989.0,1126.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S04,S04,6,7,1126.0,1470.0,344.0,rest_or_transition,rest,1,0,,v1,1298.0,1470.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S04,S04,7,8,1470.0,1502.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S04,S04,8,9,1502.0,1553.0,51.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S04,S04,9,10,1553.0,1585.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S04,S04,10,11,1585.0,1633.0,48.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S04,S04,11,12,1633.0,1665.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S04,S04,12,13,1665.0,1709.0,44.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S05,S05,0,1,0.0,196.0,196.0,baseline,baseline,1,0,,v1,136.0,196.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S05,S05,1,2,196.0,379.0,183.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S05,S05,2,3,379.0,478.0,99.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S05,S05,3,4,478.0,590.0,112.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S05,S05,4,5,590.0,926.0,336.0,rest_or_transition,rest,1,0,,v1,758.0,926.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S05,S05,5,6,926.0,1095.0,169.0,stress,stress,1,0,,v1,926.0,1095.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S05,S05,6,7,1095.0,1322.0,227.0,rest_or_transition,rest,1,0,,v1,1208.5,1322.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S05,S05,7,8,1322.0,1356.0,34.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S05,S05,8,9,1356.0,1417.0,61.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S05,S05,9,10,1417.0,1448.0,31.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S05,S05,10,11,1448.0,1493.0,45.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S05,S05,11,12,1493.0,1525.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S05,S05,12,13,1525.0,1537.0,12.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S06,S06,0,1,0.0,55.0,55.0,baseline,baseline,0,0,,v1,,,last_60s,excluded_shorter_than_60s,Baseline
+STRESS,S06,S06,1,2,55.0,248.0,193.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S06,S06,2,3,248.0,334.0,86.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S06,S06,3,4,334.0,462.0,128.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S06,S06,4,5,462.0,796.0,334.0,rest_or_transition,rest,1,0,,v1,629.0,796.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S06,S06,5,6,796.0,936.0,140.0,stress,stress,1,0,,v1,796.0,936.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S06,S06,6,7,936.0,1241.0,305.0,rest_or_transition,rest,1,0,,v1,1088.5,1241.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S06,S06,7,8,1241.0,1273.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S06,S06,8,9,1273.0,1306.0,33.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S06,S06,9,10,1306.0,1334.0,28.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S06,S06,10,11,1334.0,1362.0,28.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S06,S06,11,12,1362.0,1396.0,34.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S06,S06,12,13,1396.0,1409.0,13.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S07,S07,0,1,0.0,115.0,115.0,baseline,baseline,1,0,,v1,55.0,115.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S07,S07,1,2,115.0,278.0,163.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S07,S07,2,3,278.0,389.0,111.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S07,S07,3,4,389.0,492.0,103.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S07,S07,4,5,492.0,764.0,272.0,rest_or_transition,rest,1,0,,v1,628.0,764.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S07,S07,5,6,764.0,893.0,129.0,stress,stress,1,0,,v1,764.0,893.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S07,S07,6,7,893.0,1178.0,285.0,rest_or_transition,rest,1,0,,v1,1035.5,1178.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S07,S07,7,8,1178.0,1210.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S07,S07,8,9,1210.0,1248.0,38.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S07,S07,9,10,1248.0,1280.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S07,S07,10,11,1280.0,1327.0,47.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S07,S07,11,12,1327.0,1358.0,31.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S07,S07,12,13,1358.0,1394.0,36.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S08,S08,0,1,0.0,44.0,44.0,baseline,baseline,0,0,,v1,,,last_60s,excluded_shorter_than_60s,Baseline
+STRESS,S08,S08,1,2,44.0,220.0,176.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S08,S08,2,3,220.0,365.0,145.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S08,S08,3,4,365.0,470.0,105.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S08,S08,4,5,470.0,759.0,289.0,rest_or_transition,rest,1,0,,v1,614.5,759.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S08,S08,5,6,759.0,914.0,155.0,stress,stress,1,0,,v1,759.0,914.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S08,S08,6,7,914.0,1182.0,268.0,rest_or_transition,rest,1,0,,v1,1048.0,1182.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S08,S08,7,8,1182.0,1214.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S08,S08,8,9,1214.0,1240.0,26.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S08,S08,9,10,1240.0,1273.0,33.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S08,S08,10,11,1273.0,1306.0,33.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S08,S08,11,12,1306.0,1338.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S08,S08,12,13,1338.0,1372.0,34.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S09,S09,0,1,0.0,154.0,154.0,baseline,baseline,1,0,,v1,94.0,154.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S09,S09,1,2,154.0,346.0,192.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S09,S09,2,3,346.0,445.0,99.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S09,S09,3,4,445.0,544.0,99.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S09,S09,4,5,544.0,786.0,242.0,rest_or_transition,rest,1,0,,v1,665.0,786.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S09,S09,5,6,786.0,917.0,131.0,stress,stress,1,0,,v1,786.0,917.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S09,S09,6,7,917.0,1195.0,278.0,rest_or_transition,rest,1,0,,v1,1056.0,1195.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S09,S09,7,8,1195.0,1227.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S09,S09,8,9,1227.0,1273.0,46.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S09,S09,9,10,1273.0,1305.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S09,S09,10,11,1305.0,1341.0,36.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S09,S09,11,12,1341.0,1372.0,31.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S09,S09,12,13,1372.0,1408.0,36.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S10,S10,0,1,0.0,67.0,67.0,baseline,baseline,1,0,,v1,7.0,67.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S10,S10,1,2,67.0,251.0,184.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S10,S10,2,3,251.0,360.0,109.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S10,S10,3,4,360.0,477.0,117.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S10,S10,4,5,477.0,839.0,362.0,rest_or_transition,rest,1,0,,v1,658.0,839.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S10,S10,5,6,839.0,974.0,135.0,stress,stress,1,0,,v1,839.0,974.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S10,S10,6,7,974.0,1343.0,369.0,rest_or_transition,rest,1,0,,v1,1158.5,1343.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S10,S10,7,8,1343.0,1372.0,29.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S10,S10,8,9,1372.0,1406.0,34.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S10,S10,9,10,1406.0,1435.0,29.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S10,S10,10,11,1435.0,1462.0,27.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S10,S10,11,12,1462.0,1493.0,31.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S10,S10,12,13,1493.0,1532.0,39.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S11,S11,0,1,0.0,24.0,24.0,baseline,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S11,S11,1,2,24.0,194.0,170.0,rest_or_transition,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S11,S11,2,3,194.0,303.0,109.0,rest_or_transition,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S11,S11,3,4,303.0,455.0,152.0,rest_or_transition,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S11,S11,4,5,455.0,734.0,279.0,rest_or_transition,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S11,S11,5,6,734.0,885.0,151.0,stress,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S11,S11,6,7,885.0,1135.0,250.0,rest_or_transition,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S11,S11,7,8,1135.0,1166.0,31.0,stress,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S11,S11,8,9,1166.0,1205.0,39.0,rest_or_transition,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S11,S11,9,10,1205.0,1236.0,31.0,stress,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S11,S11,10,11,1236.0,1268.0,32.0,rest_or_transition,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S11,S11,11,12,1268.0,1300.0,32.0,stress,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S11,S11,12,13,1300.0,1337.0,37.0,rest_or_transition,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+STRESS,S12,S12,0,1,0.0,105.0,105.0,baseline,baseline,1,0,,v1,45.0,105.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S12,S12,1,2,105.0,304.0,199.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S12,S12,2,3,304.0,407.0,103.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S12,S12,3,4,407.0,516.0,109.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S12,S12,4,5,516.0,871.0,355.0,rest_or_transition,rest,1,0,,v1,693.5,871.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S12,S12,5,6,871.0,1002.0,131.0,stress,stress,1,0,,v1,871.0,1002.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S12,S12,6,7,1002.0,1341.0,339.0,rest_or_transition,rest,1,0,,v1,1171.5,1341.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S12,S12,7,8,1341.0,1371.0,30.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S12,S12,8,9,1371.0,1408.0,37.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S12,S12,9,10,1408.0,1435.0,27.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S12,S12,10,11,1435.0,1484.0,49.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S12,S12,11,12,1484.0,1515.0,31.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S12,S12,12,13,1515.0,1549.0,34.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S13,S13,0,1,0.0,173.0,173.0,baseline,baseline,1,0,,v1,113.0,173.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S13,S13,1,2,173.0,382.0,209.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S13,S13,2,3,382.0,501.0,119.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S13,S13,3,4,501.0,614.0,113.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S13,S13,4,5,614.0,975.0,361.0,rest_or_transition,rest,1,0,,v1,794.5,975.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S13,S13,5,6,975.0,1102.0,127.0,stress,stress,1,0,,v1,975.0,1102.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S13,S13,6,7,1102.0,1399.0,297.0,rest_or_transition,rest,1,0,,v1,1250.5,1399.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S13,S13,7,8,1399.0,1428.0,29.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S13,S13,8,9,1428.0,1469.0,41.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S13,S13,9,10,1469.0,1499.0,30.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S13,S13,10,11,1499.0,1530.0,31.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S13,S13,11,12,1530.0,1562.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S13,S13,12,13,1562.0,1598.0,36.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S14,S14,0,1,0.0,202.0,202.0,baseline,baseline,1,0,,v1,142.0,202.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S14,S14,1,2,202.0,412.0,210.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S14,S14,2,3,412.0,538.0,126.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S14,S14,3,4,538.0,647.0,109.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S14,S14,4,5,647.0,999.0,352.0,rest_or_transition,rest,1,0,,v1,823.0,999.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S14,S14,5,6,999.0,1136.0,137.0,stress,stress,1,0,,v1,999.0,1136.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S14,S14,6,7,1136.0,1468.0,332.0,rest_or_transition,rest,1,0,,v1,1302.0,1468.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S14,S14,7,8,1468.0,1498.0,30.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S14,S14,8,9,1498.0,1528.0,30.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S14,S14,9,10,1528.0,1557.0,29.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S14,S14,10,11,1557.0,1582.0,25.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S14,S14,11,12,1582.0,1616.0,34.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S14,S14,12,13,1616.0,1653.0,37.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S15,S15,0,1,0.0,198.0,198.0,baseline,baseline,1,0,,v1,138.0,198.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S15,S15,1,2,198.0,405.0,207.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S15,S15,2,3,405.0,476.0,71.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S15,S15,3,4,476.0,586.0,110.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S15,S15,4,5,586.0,937.0,351.0,rest_or_transition,rest,1,0,,v1,761.5,937.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S15,S15,5,6,937.0,1099.0,162.0,stress,stress,1,0,,v1,937.0,1099.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S15,S15,6,7,1099.0,1409.0,310.0,rest_or_transition,rest,1,0,,v1,1254.0,1409.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S15,S15,7,8,1409.0,1441.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S15,S15,8,9,1441.0,1472.0,31.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S15,S15,9,10,1472.0,1503.0,31.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S15,S15,10,11,1503.0,1534.0,31.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S15,S15,11,12,1534.0,1568.0,34.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S15,S15,12,13,1568.0,1599.0,31.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S16,S16,0,1,0.0,330.0,330.0,baseline,baseline,1,0,,v1,270.0,330.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S16,S16,1,2,330.0,523.0,193.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S16,S16,2,3,523.0,626.0,103.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S16,S16,3,4,626.0,727.0,101.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S16,S16,4,5,727.0,959.0,232.0,rest_or_transition,rest,1,0,,v1,843.0,959.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S16,S16,5,6,959.0,1111.0,152.0,stress,stress,1,0,,v1,959.0,1111.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S16,S16,6,7,1111.0,1457.0,346.0,rest_or_transition,rest,1,0,,v1,1284.0,1457.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S16,S16,7,8,1457.0,1488.0,31.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S16,S16,8,9,1488.0,1523.0,35.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S16,S16,9,10,1523.0,1553.0,30.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S16,S16,10,11,1553.0,1576.0,23.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S16,S16,11,12,1576.0,1609.0,33.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S16,S16,12,13,1609.0,1641.0,32.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S17,S17,0,1,0.0,302.0,302.0,baseline,baseline,1,0,,v1,242.0,302.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S17,S17,1,2,302.0,476.0,174.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S17,S17,2,3,476.0,578.0,102.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S17,S17,3,4,578.0,670.0,92.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S17,S17,4,5,670.0,948.0,278.0,rest_or_transition,rest,1,0,,v1,809.0,948.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S17,S17,5,6,948.0,1107.0,159.0,stress,stress,1,0,,v1,948.0,1107.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S17,S17,6,7,1107.0,1416.0,309.0,rest_or_transition,rest,1,0,,v1,1261.5,1416.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S17,S17,7,8,1416.0,1447.0,31.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S17,S17,8,9,1447.0,1468.0,21.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S17,S17,9,10,1468.0,1499.0,31.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S17,S17,10,11,1499.0,1526.0,27.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S17,S17,11,12,1526.0,1559.0,33.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S17,S17,12,13,1559.0,1593.0,34.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S18,S18,0,1,0.0,237.0,237.0,baseline,baseline,1,0,,v1,177.0,237.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,S18,S18,1,2,237.0,421.0,184.0,rest_or_transition,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Stroop
+STRESS,S18,S18,2,3,421.0,517.0,96.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S18,S18,3,4,517.0,631.0,114.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S18,S18,4,5,631.0,948.0,317.0,rest_or_transition,rest,1,0,,v1,789.5,948.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,S18,S18,5,6,948.0,1106.0,158.0,stress,stress,1,0,,v1,948.0,1106.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,S18,S18,6,7,1106.0,1420.0,314.0,rest_or_transition,rest,1,0,,v1,1263.0,1420.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,S18,S18,7,8,1420.0,1453.0,33.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,S18,S18,8,9,1453.0,1475.0,22.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S18,S18,9,10,1475.0,1505.0,30.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,S18,S18,10,11,1505.0,1534.0,29.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,S18,S18,11,12,1534.0,1566.0,32.0,stress,stress,0,0,,v1,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,S18,S18,12,13,1566.0,1604.0,38.0,rest_or_transition,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f01,f01,0,1,0.0,287.0,287.0,baseline,baseline,1,0,,v2,227.0,287.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f01,f01,1,2,287.0,408.0,121.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f01,f01,2,3,408.0,860.0,452.0,stress,stress,1,0,,v2,408.0,860.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f01,f01,3,4,860.0,1714.0,854.0,rest_or_transition,rest,1,0,,v2,1287.0,1714.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f01,f01,4,5,1714.0,1751.0,37.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f01,f01,5,6,1751.0,1772.0,21.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f01,f01,6,7,1772.0,1804.0,32.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f01,f01,7,8,1804.0,2973.0,1169.0,rest_or_transition,rest,1,0,,v2,2388.5,2973.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f01,f01,8,9,2973.0,2999.0,26.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f02,f02,0,1,0.0,851.0,851.0,baseline,baseline,1,0,,v2,791.0,851.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f02,f02,1,2,851.0,929.0,78.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f02,f02,2,3,929.0,1308.0,379.0,stress,stress,1,0,,v2,929.0,1308.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f02,f02,3,4,1308.0,2100.0,792.0,rest_or_transition,rest,1,0,,v2,1704.0,2100.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f02,f02,4,5,2100.0,2142.0,42.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f02,f02,5,6,2142.0,2204.0,62.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f02,f02,6,7,2204.0,2239.0,35.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f02,f02,7,8,2239.0,2678.0,439.0,rest_or_transition,rest,1,0,,v2,2458.5,2678.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f02,f02,8,9,2678.0,2709.0,31.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f03,f03,0,1,0.0,785.0,785.0,baseline,baseline,1,0,,v2,725.0,785.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f03,f03,1,2,785.0,949.0,164.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f03,f03,2,3,949.0,1210.0,261.0,stress,stress,1,0,,v2,949.0,1210.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f03,f03,3,4,1210.0,2296.0,1086.0,rest_or_transition,rest,1,0,,v2,1753.0,2296.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f03,f03,4,5,2296.0,2325.0,29.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f03,f03,5,6,2325.0,2344.0,19.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f03,f03,6,7,2344.0,2375.0,31.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f03,f03,7,8,2375.0,3297.0,922.0,rest_or_transition,rest,1,0,,v2,2836.0,3297.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f03,f03,8,9,3297.0,3332.0,35.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f04,f04,0,1,0.0,1009.0,1009.0,baseline,baseline,1,0,,v2,949.0,1009.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f04,f04,1,2,1009.0,1111.0,102.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f04,f04,2,3,1111.0,1376.0,265.0,stress,stress,1,0,,v2,1111.0,1376.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f04,f04,3,4,1376.0,2236.0,860.0,rest_or_transition,rest,1,0,,v2,1806.0,2236.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f04,f04,4,5,2236.0,2276.0,40.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f04,f04,5,6,2276.0,2317.0,41.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f04,f04,6,7,2317.0,2355.0,38.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f04,f04,7,8,2355.0,3179.0,824.0,rest_or_transition,rest,1,0,,v2,2767.0,3179.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f04,f04,8,9,3179.0,3215.0,36.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f05,f05,0,1,0.0,2172.0,2172.0,baseline,baseline,1,0,,v2,2112.0,2172.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f05,f05,1,2,2172.0,2263.0,91.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f05,f05,2,3,2263.0,2513.0,250.0,stress,stress,1,0,,v2,2263.0,2513.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f05,f05,3,4,2513.0,3394.0,881.0,rest_or_transition,rest,1,0,,v2,2953.5,3394.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f05,f05,4,5,3394.0,3436.0,42.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f05,f05,5,6,3436.0,3455.0,19.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f05,f05,6,7,3455.0,3495.0,40.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f05,f05,7,8,3495.0,4290.0,795.0,rest_or_transition,rest,1,0,,v2,3892.5,4290.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f05,f05,8,9,4290.0,4338.0,48.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f06,f06,0,1,0.0,587.0,587.0,baseline,baseline,1,0,,v2,527.0,587.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f06,f06,1,2,587.0,673.0,86.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f06,f06,2,3,673.0,914.0,241.0,stress,stress,1,0,,v2,673.0,914.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f06,f06,3,4,914.0,1767.0,853.0,rest_or_transition,rest,1,0,,v2,1340.5,1767.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f06,f06,4,5,1767.0,1808.0,41.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f06,f06,5,6,1808.0,1836.0,28.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f06,f06,6,7,1836.0,1875.0,39.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f06,f06,7,8,1875.0,2753.0,878.0,rest_or_transition,rest,1,0,,v2,2314.0,2753.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f06,f06,8,9,2753.0,2792.0,39.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f07,f07,0,1,0.0,783.0,783.0,baseline,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+STRESS,f07,f07,1,2,783.0,860.0,77.0,rest_or_transition,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+STRESS,f07,f07,2,3,860.0,1107.0,247.0,stress,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+STRESS,f07,f07,3,4,1107.0,1943.0,836.0,rest_or_transition,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+STRESS,f07,f07,4,5,1943.0,1983.0,40.0,stress,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+STRESS,f07,f07,5,6,1983.0,2010.0,27.0,rest_or_transition,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+STRESS,f07,f07,6,7,2010.0,2052.0,42.0,stress,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+STRESS,f07,f07,7,8,2052.0,2952.0,900.0,rest_or_transition,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+STRESS,f07,f07,8,9,2952.0,2995.0,43.0,stress,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+STRESS,f08,f08,0,1,0.0,523.0,523.0,baseline,baseline,1,0,,v2,463.0,523.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f08,f08,1,2,523.0,621.0,98.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f08,f08,2,3,621.0,910.0,289.0,stress,stress,1,0,,v2,621.0,910.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f08,f08,3,4,910.0,1783.0,873.0,rest_or_transition,rest,1,0,,v2,1346.5,1783.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f08,f08,4,5,1783.0,1819.0,36.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f08,f08,5,6,1819.0,1854.0,35.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f08,f08,6,7,1854.0,1891.0,37.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f08,f08,7,8,1891.0,2553.0,662.0,rest_or_transition,rest,1,0,,v2,2222.0,2553.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f08,f08,8,9,2553.0,2593.0,40.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f09,f09,0,1,0.0,745.0,745.0,baseline,baseline,1,0,,v2,685.0,745.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f09,f09,1,2,745.0,843.0,98.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f09,f09,2,3,843.0,1110.0,267.0,stress,stress,1,0,,v2,843.0,1110.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f09,f09,3,4,1110.0,1929.0,819.0,rest_or_transition,rest,1,0,,v2,1519.5,1929.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f09,f09,4,5,1929.0,1967.0,38.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f09,f09,5,6,1967.0,1989.0,22.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f09,f09,6,7,1989.0,2029.0,40.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f09,f09,7,8,2029.0,2829.0,800.0,rest_or_transition,rest,1,0,,v2,2429.0,2829.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f09,f09,8,9,2829.0,2867.0,38.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f10,f10,0,1,0.0,229.0,229.0,baseline,baseline,1,0,,v2,169.0,229.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f10,f10,1,2,229.0,338.0,109.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f10,f10,2,3,338.0,593.0,255.0,stress,stress,1,0,,v2,338.0,593.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f10,f10,3,4,593.0,1437.0,844.0,rest_or_transition,rest,1,0,,v2,1015.0,1437.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f10,f10,4,5,1437.0,1478.0,41.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f10,f10,5,6,1478.0,1508.0,30.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f10,f10,6,7,1508.0,1552.0,44.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f10,f10,7,8,1552.0,2334.0,782.0,rest_or_transition,rest,1,0,,v2,1943.0,2334.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f10,f10,8,9,2334.0,2377.0,43.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f11,f11,0,1,0.0,720.0,720.0,baseline,baseline,1,0,,v2,660.0,720.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f11,f11,1,2,720.0,825.0,105.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f11,f11,2,3,825.0,1124.0,299.0,stress,stress,1,0,,v2,825.0,1124.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f11,f11,3,4,1124.0,1954.0,830.0,rest_or_transition,rest,1,0,,v2,1539.0,1954.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f11,f11,4,5,1954.0,1988.0,34.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f11,f11,5,6,1988.0,2012.0,24.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f11,f11,6,7,2012.0,2050.0,38.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f11,f11,7,8,2050.0,2857.0,807.0,rest_or_transition,rest,1,0,,v2,2453.5,2857.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f11,f11,8,9,2857.0,2894.0,37.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f12,f12,0,1,0.0,2337.0,2337.0,baseline,baseline,1,0,,v2,2277.0,2337.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f12,f12,1,2,2337.0,2428.0,91.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f12,f12,2,3,2428.0,2679.0,251.0,stress,stress,1,0,,v2,2428.0,2679.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f12,f12,3,4,2679.0,3539.0,860.0,rest_or_transition,rest,1,0,,v2,3109.0,3539.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f12,f12,4,5,3539.0,3577.0,38.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f12,f12,5,6,3577.0,3604.0,27.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f12,f12,6,7,3604.0,3641.0,37.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f12,f12,7,8,3641.0,4450.0,809.0,rest_or_transition,rest,1,0,,v2,4045.5,4450.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f12,f12,8,9,4450.0,4488.0,38.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f13,f13,0,1,0.0,1094.0,1094.0,baseline,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+STRESS,f13,f13,1,2,1094.0,1200.0,106.0,rest_or_transition,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+STRESS,f13,f13,2,3,1200.0,1417.0,217.0,stress,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+STRESS,f13,f13,3,4,1417.0,2461.0,1044.0,rest_or_transition,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+STRESS,f13,f13,4,5,2461.0,2498.0,37.0,stress,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+STRESS,f13,f13,5,6,2498.0,2527.0,29.0,rest_or_transition,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+STRESS,f13,f13,6,7,2527.0,2565.0,38.0,stress,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+STRESS,f13,f13,7,8,2565.0,3407.0,842.0,rest_or_transition,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+STRESS,f13,f13,8,9,3407.0,3448.0,41.0,stress,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+STRESS,f14_a,f14,-1,-1,,,,READ_ERROR,exclude,0,0,No columns to parse from file; primary exclusion: stress recording split and first part cannot be parsed,v2,,,excluded_subject,excluded_subject,
+STRESS,f14_b,f14,0,1,0.0,142.0,142.0,baseline,exclude,0,0,primary exclusion: stress recording split and first part cannot be parsed,v2,,,excluded_subject,excluded_subject,
+STRESS,f14_b,f14,1,2,142.0,232.0,90.0,rest_or_transition,exclude,0,0,primary exclusion: stress recording split and first part cannot be parsed,v2,,,excluded_subject,excluded_subject,
+STRESS,f14_b,f14,2,3,232.0,478.0,246.0,stress,exclude,0,0,primary exclusion: stress recording split and first part cannot be parsed,v2,,,excluded_subject,excluded_subject,
+STRESS,f14_b,f14,3,4,478.0,1189.0,711.0,rest_or_transition,exclude,0,0,primary exclusion: stress recording split and first part cannot be parsed,v2,,,excluded_subject,excluded_subject,
+STRESS,f14_b,f14,4,5,1189.0,1228.0,39.0,stress,exclude,0,0,primary exclusion: stress recording split and first part cannot be parsed,v2,,,excluded_subject,excluded_subject,
+STRESS,f14_b,f14,5,6,1228.0,1270.0,42.0,rest_or_transition,exclude,0,0,primary exclusion: stress recording split and first part cannot be parsed,v2,,,excluded_subject,excluded_subject,
+STRESS,f14_b,f14,6,7,1270.0,1319.0,49.0,stress,exclude,0,0,primary exclusion: stress recording split and first part cannot be parsed,v2,,,excluded_subject,excluded_subject,
+STRESS,f14_b,f14,7,8,1319.0,1958.0,639.0,rest_or_transition,exclude,0,0,primary exclusion: stress recording split and first part cannot be parsed,v2,,,excluded_subject,excluded_subject,
+STRESS,f14_b,f14,8,9,1958.0,2001.0,43.0,stress,exclude,0,0,primary exclusion: stress recording split and first part cannot be parsed,v2,,,excluded_subject,excluded_subject,
+STRESS,f15,f15,0,1,0.0,2010.0,2010.0,baseline,baseline,1,0,,v2,1950.0,2010.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f15,f15,1,2,2010.0,2097.0,87.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f15,f15,2,3,2097.0,2361.0,264.0,stress,stress,1,0,,v2,2097.0,2361.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f15,f15,3,4,2361.0,3175.0,814.0,rest_or_transition,rest,1,0,,v2,2768.0,3175.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f15,f15,4,5,3175.0,3213.0,38.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f15,f15,5,6,3213.0,3235.0,22.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f15,f15,6,7,3235.0,3274.0,39.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f15,f15,7,8,3274.0,3909.0,635.0,rest_or_transition,rest,1,0,,v2,3591.5,3909.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f15,f15,8,9,3909.0,3974.0,65.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f16,f16,0,1,0.0,861.0,861.0,baseline,baseline,1,0,,v2,801.0,861.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f16,f16,1,2,861.0,942.0,81.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f16,f16,2,3,942.0,1186.0,244.0,stress,stress,1,0,,v2,942.0,1186.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f16,f16,3,4,1186.0,2121.0,935.0,rest_or_transition,rest,1,0,,v2,1653.5,2121.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f16,f16,4,5,2121.0,2165.0,44.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f16,f16,5,6,2165.0,2189.0,24.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f16,f16,6,7,2189.0,2219.0,30.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f16,f16,7,8,2219.0,2874.0,655.0,rest_or_transition,rest,1,0,,v2,2546.5,2874.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f16,f16,8,9,2874.0,2910.0,36.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f17,f17,0,1,0.0,728.0,728.0,baseline,baseline,1,0,,v2,668.0,728.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f17,f17,1,2,728.0,864.0,136.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f17,f17,2,3,864.0,1130.0,266.0,stress,stress,1,0,,v2,864.0,1130.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f17,f17,3,4,1130.0,1950.0,820.0,rest_or_transition,rest,1,0,,v2,1540.0,1950.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f17,f17,4,5,1950.0,1995.0,45.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f17,f17,5,6,1995.0,2019.0,24.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f17,f17,6,7,2019.0,2067.0,48.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f17,f17,7,8,2067.0,2886.0,819.0,rest_or_transition,rest,1,0,,v2,2476.5,2886.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f17,f17,8,9,2886.0,2932.0,46.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+STRESS,f18,f18,0,1,0.0,975.0,975.0,baseline,baseline,1,0,,v2,915.0,975.0,last_60s,prelabelled_requires_researcher_confirmation,Baseline
+STRESS,f18,f18,1,2,975.0,1061.0,86.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f18,f18,2,3,1061.0,1297.0,236.0,stress,stress,1,0,,v2,1061.0,1297.0,full_interval,prelabelled_requires_researcher_confirmation,TMCT
+STRESS,f18,f18,3,4,1297.0,2075.0,778.0,rest_or_transition,rest,1,0,,v2,1686.0,2075.0,second_half,prelabelled_requires_researcher_confirmation,First Rest
+STRESS,f18,f18,4,5,2075.0,2112.0,37.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Real Opinion
+STRESS,f18,f18,5,6,2112.0,2130.0,18.0,rest_or_transition,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+STRESS,f18,f18,6,7,2130.0,2167.0,37.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Opposite Opinion
+STRESS,f18,f18,7,8,2167.0,2810.0,643.0,rest_or_transition,rest,1,0,,v2,2488.5,2810.0,second_half,prelabelled_requires_researcher_confirmation,Second Rest
+STRESS,f18,f18,8,9,2810.0,2846.0,36.0,stress,stress,0,0,,v2,,,excluded_not_common_primary_task,excluded_not_common_primary_task,Subtract
+AEROBIC,S01,S01,0,1,0.0,179.0,179.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S01,S01,1,2,179.0,357.0,178.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S01,S01,2,3,357.0,535.0,178.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,416.0,476.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S01,S01,3,4,535.0,745.0,210.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,610.0,670.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S01,S01,4,5,745.0,911.0,166.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,798.0,858.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S01,S01,5,6,911.0,1080.0,169.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,965.5,1025.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S01,S01,6,7,1080.0,1206.0,126.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S01,S01,7,8,1206.0,1315.0,109.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S01,S01,8,9,1315.0,1439.0,124.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S01,S01,9,10,1439.0,1555.0,116.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S01,S01,10,11,1555.0,1682.0,127.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S01,S01,11,12,1682.0,1917.0,235.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S02,S02,0,1,0.0,179.0,179.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S02,S02,1,2,179.0,359.0,180.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S02,S02,2,3,359.0,541.0,182.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S02,S02,3,4,541.0,719.0,178.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S02,S02,4,5,719.0,908.0,189.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S02,S02,5,6,908.0,1085.0,177.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S02,S02,6,7,1085.0,1200.0,115.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S02,S02,7,8,1200.0,1319.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S02,S02,8,9,1319.0,1458.0,139.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S02,S02,9,10,1458.0,1567.0,109.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S02,S02,10,11,1567.0,1681.0,114.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S02,S02,11,12,1681.0,1918.0,237.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S03,S03,0,1,0.0,177.0,177.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S03,S03,1,2,177.0,356.0,179.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S03,S03,2,3,356.0,537.0,181.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,416.5,476.5,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S03,S03,3,4,537.0,718.0,181.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,597.5,657.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S03,S03,4,5,718.0,909.0,191.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,783.5,843.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S03,S03,5,6,909.0,1077.0,168.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,963.0,1023.0,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S03,S03,6,7,1077.0,1317.0,240.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S04,S04,0,1,0.0,183.0,183.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S04,S04,1,2,183.0,366.0,183.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S04,S04,2,3,366.0,541.0,175.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,423.5,483.5,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S04,S04,3,4,541.0,721.0,180.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,601.0,661.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S04,S04,4,5,721.0,901.0,180.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,781.0,841.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S04,S04,5,6,901.0,1081.0,180.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,961.0,1021.0,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S04,S04,6,7,1081.0,1206.0,125.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S04,S04,7,8,1206.0,1320.0,114.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S04,S04,8,9,1320.0,1440.0,120.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S04,S04,9,10,1440.0,1561.0,121.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S04,S04,10,11,1561.0,1684.0,123.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S04,S04,11,12,1684.0,1916.0,232.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S05,S05,0,1,0.0,179.0,179.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S05,S05,1,2,179.0,360.0,181.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S05,S05,2,3,360.0,538.0,178.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,419.0,479.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S05,S05,3,4,538.0,711.0,173.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,594.5,654.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S05,S05,4,5,711.0,895.0,184.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,773.0,833.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S05,S05,5,6,895.0,1018.0,123.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,926.5,986.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S05,S05,6,7,1018.0,1136.0,118.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S05,S05,7,8,1136.0,1255.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S05,S05,8,9,1255.0,1380.0,125.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S05,S05,9,10,1380.0,1497.0,117.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S05,S05,10,11,1497.0,1617.0,120.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S05,S05,11,12,1617.0,1883.0,266.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S06,S06,0,1,0.0,181.0,181.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S06,S06,1,2,181.0,359.0,178.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S06,S06,2,3,359.0,532.0,173.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,415.5,475.5,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S06,S06,3,4,532.0,718.0,186.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,595.0,655.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S06,S06,4,5,718.0,917.0,199.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,787.5,847.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S06,S06,5,6,917.0,1139.0,222.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,998.0,1058.0,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S06,S06,6,7,1139.0,1255.0,116.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S06,S06,7,8,1255.0,1376.0,121.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S06,S06,8,9,1376.0,1491.0,115.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S06,S06,9,10,1491.0,1607.0,116.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S06,S06,10,11,1607.0,1733.0,126.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S06,S06,11,12,1733.0,1946.0,213.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S07,S07,0,1,0.0,202.0,202.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S07,S07,1,2,202.0,361.0,159.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S07,S07,2,3,361.0,542.0,181.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,421.5,481.5,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S07,S07,3,4,542.0,727.0,185.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,604.5,664.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S07,S07,4,5,727.0,900.0,173.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,783.5,843.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S07,S07,5,6,900.0,1086.0,186.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,963.0,1023.0,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S07,S07,6,7,1086.0,1203.0,117.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S07,S07,7,8,1203.0,1319.0,116.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S07,S07,8,9,1319.0,1560.0,241.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S08,S08,0,1,0.0,177.0,177.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S08,S08,1,2,177.0,360.0,183.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S08,S08,2,3,360.0,541.0,181.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,420.5,480.5,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S08,S08,3,4,541.0,716.0,175.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,598.5,658.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S08,S08,4,5,716.0,899.0,183.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,777.5,837.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S08,S08,5,6,899.0,1078.0,179.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,958.5,1018.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S08,S08,6,7,1078.0,1198.0,120.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S08,S08,7,8,1198.0,1317.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S08,S08,8,9,1317.0,1445.0,128.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S08,S08,9,10,1445.0,1557.0,112.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S08,S08,10,11,1557.0,1678.0,121.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S08,S08,11,12,1678.0,1924.0,246.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S09,S09,0,1,0.0,183.0,183.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S09,S09,1,2,183.0,370.0,187.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S09,S09,2,3,370.0,536.0,166.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,423.0,483.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S09,S09,3,4,536.0,724.0,188.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,600.0,660.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S09,S09,4,5,724.0,906.0,182.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,785.0,845.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S09,S09,5,6,906.0,1084.0,178.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,965.0,1025.0,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S09,S09,6,7,1084.0,1199.0,115.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S09,S09,7,8,1199.0,1318.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S09,S09,8,9,1318.0,1437.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S09,S09,9,10,1437.0,1560.0,123.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S09,S09,10,11,1560.0,1682.0,122.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S09,S09,11,12,1682.0,1918.0,236.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S10,S10,0,1,0.0,179.0,179.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S10,S10,1,2,179.0,377.0,198.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S10,S10,2,3,377.0,543.0,166.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,430.0,490.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S10,S10,3,4,543.0,717.0,174.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,600.0,660.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S10,S10,4,5,717.0,902.0,185.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,779.5,839.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S10,S10,5,6,902.0,1084.0,182.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,963.0,1023.0,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S10,S10,6,7,1084.0,1195.0,111.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S10,S10,7,8,1195.0,1322.0,127.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S10,S10,8,9,1322.0,1442.0,120.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S10,S10,9,10,1442.0,1564.0,122.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S10,S10,10,11,1564.0,1682.0,118.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S10,S10,11,12,1682.0,1911.0,229.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S11_a,S11,0,1,0.0,176.0,176.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S11_a,S11,1,2,176.0,391.0,215.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S11_a,S11,2,3,391.0,548.0,157.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S11_a,S11,3,4,548.0,727.0,179.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S11_a,S11,4,5,727.0,907.0,180.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S11_a,S11,5,6,907.0,1079.0,172.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S11_a,S11,6,7,1079.0,1207.0,128.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S11_a,S11,7,8,1207.0,1316.0,109.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S11_a,S11,8,9,1316.0,1427.0,111.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S11_a,S11,9,10,1427.0,1555.0,128.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S11_b,S11,0,1,0.0,179.0,179.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+AEROBIC,S13,S13,0,1,0.0,219.0,219.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S13,S13,1,2,219.0,412.0,193.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S13,S13,2,3,412.0,583.0,171.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,467.5,527.5,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S13,S13,3,4,583.0,763.0,180.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,643.0,703.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S13,S13,4,5,763.0,946.0,183.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,824.5,884.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S13,S13,5,6,946.0,1125.0,179.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,1005.5,1065.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S13,S13,6,7,1125.0,1242.0,117.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S13,S13,7,8,1242.0,1367.0,125.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S13,S13,8,9,1367.0,1490.0,123.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S13,S13,9,10,1490.0,1600.0,110.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S13,S13,10,11,1600.0,1702.0,102.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S13,S13,11,12,1702.0,1950.0,248.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S14,S14,0,1,0.0,181.0,181.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S14,S14,1,2,181.0,359.0,178.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S14,S14,2,3,359.0,529.0,170.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,414.0,474.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S14,S14,3,4,529.0,719.0,190.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,594.0,654.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S14,S14,4,5,719.0,895.0,176.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,777.0,837.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S14,S14,5,6,895.0,1076.0,181.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,955.5,1015.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S14,S14,6,7,1076.0,1219.0,143.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S14,S14,7,8,1219.0,1358.0,139.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S14,S14,8,9,1358.0,1461.0,103.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S14,S14,9,10,1461.0,1577.0,116.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S14,S14,10,11,1577.0,1701.0,124.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S14,S14,11,12,1701.0,1977.0,276.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S15,S15,0,1,0.0,184.0,184.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S15,S15,1,2,184.0,362.0,178.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S15,S15,2,3,362.0,540.0,178.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,421.0,481.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S15,S15,3,4,540.0,723.0,183.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,601.5,661.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S15,S15,4,5,723.0,898.0,175.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,780.5,840.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S15,S15,5,6,898.0,1077.0,179.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,957.5,1017.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S15,S15,6,7,1077.0,1196.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S15,S15,7,8,1196.0,1314.0,118.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S15,S15,8,9,1314.0,1434.0,120.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S15,S15,9,10,1434.0,1565.0,131.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S15,S15,10,11,1565.0,1679.0,114.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S15,S15,11,12,1679.0,1917.0,238.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S16,S16,0,1,0.0,182.0,182.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S16,S16,1,2,182.0,357.0,175.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S16,S16,2,3,357.0,534.0,177.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,415.5,475.5,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S16,S16,3,4,534.0,718.0,184.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,596.0,656.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S16,S16,4,5,718.0,894.0,176.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,776.0,836.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S16,S16,5,6,894.0,1076.0,182.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,955.0,1015.0,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S16,S16,6,7,1076.0,1195.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S16,S16,7,8,1195.0,1327.0,132.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S16,S16,8,9,1327.0,1431.0,104.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S16,S16,9,10,1431.0,1554.0,123.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S16,S16,10,11,1554.0,1681.0,127.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S16,S16,11,12,1681.0,1925.0,244.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S17,S17,0,1,0.0,172.0,172.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S17,S17,1,2,172.0,364.0,192.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S17,S17,2,3,364.0,545.0,181.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,424.5,484.5,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S17,S17,3,4,545.0,723.0,178.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,604.0,664.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S17,S17,4,5,723.0,897.0,174.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,780.0,840.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S17,S17,5,6,897.0,1076.0,179.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,956.5,1016.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S17,S17,6,7,1076.0,1202.0,126.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S17,S17,7,8,1202.0,1316.0,114.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S17,S17,8,9,1316.0,1437.0,121.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S17,S17,9,10,1437.0,1566.0,129.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S17,S17,10,11,1566.0,1683.0,117.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S17,S17,11,12,1683.0,1921.0,238.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S18,S18,0,1,0.0,175.0,175.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S18,S18,1,2,175.0,359.0,184.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S18,S18,2,3,359.0,533.0,174.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,416.0,476.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,S18,S18,3,4,533.0,716.0,183.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,594.5,654.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,S18,S18,4,5,716.0,902.0,186.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,779.0,839.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,S18,S18,5,6,902.0,1073.0,171.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v1,957.5,1017.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,S18,S18,6,7,1073.0,1193.0,120.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S18,S18,7,8,1193.0,1312.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S18,S18,8,9,1312.0,1435.0,123.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S18,S18,9,10,1435.0,1558.0,123.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S18,S18,10,11,1558.0,1679.0,121.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,S18,S18,11,12,1679.0,1913.0,234.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f01,f01,0,1,0.0,686.0,686.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f01,f01,1,2,686.0,808.0,122.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,717.0,777.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,f01,f01,2,3,808.0,921.0,113.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,834.5,894.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,f01,f01,3,4,921.0,1046.0,125.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,953.5,1013.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,f01,f01,4,5,1046.0,1761.0,715.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1373.5,1433.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,f01,f01,5,6,1761.0,1950.0,189.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f01,f01,6,7,1950.0,2169.0,219.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f01,f01,7,8,2169.0,2291.0,122.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f02,f02,0,1,0.0,125.0,125.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f02,f02,1,2,125.0,240.0,115.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,152.5,212.5,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,f02,f02,2,3,240.0,364.0,124.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,272.0,332.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,f02,f02,3,4,364.0,483.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,393.5,453.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,f02,f02,4,5,483.0,1202.0,719.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,812.5,872.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,f02,f02,5,6,1202.0,1374.0,172.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f02,f02,6,7,1374.0,1611.0,237.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f02,f02,7,8,1611.0,1752.0,141.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f03,f03,0,1,0.0,680.0,680.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f03,f03,1,2,680.0,799.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,709.5,769.5,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,f03,f03,2,3,799.0,914.0,115.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,826.5,886.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,f03,f03,3,4,914.0,1038.0,124.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,946.0,1006.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,f03,f03,4,5,1038.0,1755.0,717.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1366.5,1426.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,f03,f03,5,6,1755.0,1953.0,198.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f03,f03,6,7,1953.0,2167.0,214.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f03,f03,7,8,2167.0,2289.0,122.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f04,f04,0,1,0.0,726.0,726.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f04,f04,1,2,726.0,883.0,157.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,774.5,834.5,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,f04,f04,2,3,883.0,1005.0,122.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,914.0,974.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,f04,f04,3,4,1005.0,1125.0,120.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1035.0,1095.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,f04,f04,4,5,1125.0,1860.0,735.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1462.5,1522.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,f04,f04,5,6,1860.0,2269.0,409.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f04,f04,6,7,2269.0,2389.0,120.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f04,f04,7,8,2389.0,2505.0,116.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f05,f05,0,1,0.0,1592.0,1592.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f05,f05,1,2,1592.0,1679.0,87.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1605.5,1665.5,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,f05,f05,2,3,1679.0,1770.0,91.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1694.5,1754.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,f05,f05,3,4,1770.0,1857.0,87.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1783.5,1843.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,f05,f05,4,5,1857.0,2747.0,890.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,2272.0,2332.0,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,f05,f05,5,6,2747.0,2762.0,15.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f05,f05,6,7,2762.0,2874.0,112.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f05,f05,7,8,2874.0,2972.0,98.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f06,f06,0,1,0.0,1466.0,1466.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f06,f06,1,2,1466.0,1550.0,84.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1478.0,1538.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,f06,f06,2,3,1550.0,1625.0,75.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1557.5,1617.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,f06,f06,3,4,1625.0,1731.0,106.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1648.0,1708.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,f06,f06,4,5,1731.0,2441.0,710.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,2056.0,2116.0,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,f06,f06,5,6,2441.0,2450.0,9.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f06,f06,6,7,2450.0,2561.0,111.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f06,f06,7,8,2561.0,2621.0,60.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f07,f07,-1,-1,,,,READ_ERROR,exclude,0,0,Tags are not strictly increasing in /content/drive/MyDrive/PhysioNet_Dataset/AEROBIC/f07; primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+AEROBIC,f08,f08,0,1,0.0,796.0,796.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f08,f08,1,2,796.0,916.0,120.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,826.0,886.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,f08,f08,2,3,916.0,1035.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,945.5,1005.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,f08,f08,3,4,1035.0,1154.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1064.5,1124.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,f08,f08,4,5,1154.0,1769.0,615.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1431.5,1491.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,f08,f08,5,6,1769.0,1941.0,172.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f08,f08,6,7,1941.0,2182.0,241.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f08,f08,7,8,2182.0,2308.0,126.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f09,f09,0,1,0.0,651.0,651.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f09,f09,1,2,651.0,815.0,164.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,703.0,763.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,f09,f09,2,3,815.0,921.0,106.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,838.0,898.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,f09,f09,3,4,921.0,1041.0,120.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,951.0,1011.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,f09,f09,4,5,1041.0,1791.0,750.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1386.0,1446.0,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,f09,f09,5,6,1791.0,2206.0,415.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f09,f09,6,7,2206.0,2332.0,126.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f09,f09,7,8,2332.0,2451.0,119.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f10,f10,0,1,0.0,708.0,708.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f10,f10,1,2,708.0,864.0,156.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,756.0,816.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,f10,f10,2,3,864.0,976.0,112.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,890.0,950.0,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,f10,f10,3,4,976.0,1091.0,115.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1003.5,1063.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,f10,f10,4,5,1091.0,1842.0,751.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1436.5,1496.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,f10,f10,5,6,1842.0,2255.0,413.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f10,f10,6,7,2255.0,2362.0,107.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f10,f10,7,8,2362.0,2476.0,114.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f11,f11,0,1,0.0,274.0,274.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f11,f11,1,2,274.0,388.0,114.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,301.0,361.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,f11,f11,2,3,388.0,513.0,125.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,420.5,480.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,f11,f11,3,4,513.0,634.0,121.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,543.5,603.5,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,f11,f11,4,5,634.0,1351.0,717.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,962.5,1022.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,f11,f11,5,6,1351.0,1520.0,169.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f11,f11,6,7,1520.0,1753.0,233.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f11,f11,7,8,1753.0,1910.0,157.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f12,f12,0,1,0.0,432.0,432.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f12,f12,1,2,432.0,554.0,122.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,463.0,523.0,center_60s,prelabelled_requires_researcher_confirmation,70 rpm
+AEROBIC,f12,f12,2,3,554.0,667.0,113.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,580.5,640.5,center_60s,prelabelled_requires_researcher_confirmation,75 rpm
+AEROBIC,f12,f12,3,4,667.0,791.0,124.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,699.0,759.0,center_60s,prelabelled_requires_researcher_confirmation,80 rpm
+AEROBIC,f12,f12,4,5,791.0,1506.0,715.0,REVIEW_PROTOCOL_NOTEBOOK,exercise,1,0,,v2,1118.5,1178.5,center_60s,prelabelled_requires_researcher_confirmation,85 rpm
+AEROBIC,f12,f12,5,6,1506.0,1694.0,188.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f12,f12,6,7,1694.0,1908.0,214.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f12,f12,7,8,1908.0,2021.0,113.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+AEROBIC,f13,f13,0,1,0.0,977.0,977.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+AEROBIC,f13,f13,1,2,977.0,1091.0,114.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+AEROBIC,f13,f13,2,3,1091.0,1213.0,122.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+AEROBIC,f13,f13,3,4,1213.0,1333.0,120.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+AEROBIC,f13,f13,4,5,1333.0,2051.0,718.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+AEROBIC,f13,f13,5,6,2051.0,2227.0,176.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+AEROBIC,f13,f13,6,7,2227.0,2468.0,241.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+AEROBIC,f13,f13,7,8,2468.0,2588.0,120.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,S01,S01,0,1,0.0,181.0,181.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S01,S01,1,2,181.0,223.0,42.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S01,S01,2,3,223.0,474.0,251.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S01,S01,3,4,474.0,507.0,33.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S01,S01,4,5,507.0,751.0,244.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S01,S01,5,6,751.0,782.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S01,S01,6,7,782.0,1022.0,240.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S02,S02,0,1,0.0,183.0,183.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S02,S02,1,2,183.0,213.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S02,S02,2,3,213.0,454.0,241.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S02,S02,3,4,454.0,490.0,36.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S02,S02,4,5,490.0,729.0,239.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S02,S02,5,6,729.0,763.0,34.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S02,S02,6,7,763.0,1003.0,240.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: documented duplicated stress signals,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S03,S03,0,1,0.0,202.0,202.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S03,S03,1,2,202.0,233.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S03,S03,2,3,233.0,529.0,296.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S03,S03,3,4,529.0,561.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S03,S03,4,5,561.0,825.0,264.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S03,S03,5,6,825.0,862.0,37.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S03,S03,6,7,862.0,1134.0,272.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S04,S04,0,1,0.0,193.0,193.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S04,S04,1,2,193.0,228.0,35.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S04,S04,2,3,228.0,484.0,256.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S04,S04,3,4,484.0,517.0,33.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S04,S04,4,5,517.0,717.0,200.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S04,S04,5,6,717.0,746.0,29.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S04,S04,6,7,746.0,1032.0,286.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S05,S05,0,1,0.0,182.0,182.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S05,S05,1,2,182.0,218.0,36.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S05,S05,2,3,218.0,461.0,243.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S05,S05,3,4,461.0,493.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S05,S05,4,5,493.0,738.0,245.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S05,S05,5,6,738.0,768.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S05,S05,6,7,768.0,1010.0,242.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S06,S06,0,1,0.0,181.0,181.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S06,S06,1,2,181.0,213.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S06,S06,2,3,213.0,456.0,243.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S06,S06,3,4,456.0,486.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S06,S06,4,5,486.0,723.0,237.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S07,S07,0,1,0.0,188.0,188.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S07,S07,1,2,188.0,222.0,34.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S07,S07,2,3,222.0,475.0,253.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S07,S07,3,4,475.0,509.0,34.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S07,S07,4,5,509.0,738.0,229.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S07,S07,5,6,738.0,767.0,29.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S07,S07,6,7,767.0,1046.0,279.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S08,S08,0,1,0.0,250.0,250.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S08,S08,1,2,250.0,284.0,34.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S08,S08,2,3,284.0,535.0,251.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S08,S08,3,4,535.0,569.0,34.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S08,S08,4,5,569.0,815.0,246.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S08,S08,5,6,815.0,849.0,34.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S08,S08,6,7,849.0,1096.0,247.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S09,S09,0,1,0.0,177.0,177.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S09,S09,1,2,177.0,207.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S09,S09,2,3,207.0,448.0,241.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S09,S09,3,4,448.0,479.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S09,S09,4,5,479.0,726.0,247.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S09,S09,5,6,726.0,758.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S09,S09,6,7,758.0,1027.0,269.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S10,S10,0,1,0.0,206.0,206.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S10,S10,1,2,206.0,238.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S10,S10,2,3,238.0,482.0,244.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S10,S10,3,4,482.0,514.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S10,S10,4,5,514.0,756.0,242.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S10,S10,5,6,756.0,788.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S10,S10,6,7,788.0,1026.0,238.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S11,S11,0,1,0.0,175.0,175.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S11,S11,1,2,175.0,207.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S11,S11,2,3,207.0,472.0,265.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S11,S11,3,4,472.0,505.0,33.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S11,S11,4,5,505.0,765.0,260.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S11,S11,5,6,765.0,796.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S11,S11,6,7,796.0,1072.0,276.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: stress baseline shorter than 60 s; aerobic session split,v1,,,excluded_subject,excluded_subject,
+ANAEROBIC,S12,S12,0,1,0.0,192.0,192.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S12,S12,1,2,192.0,225.0,33.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S12,S12,2,3,225.0,471.0,246.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S12,S12,3,4,471.0,502.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S12,S12,4,5,502.0,748.0,246.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S12,S12,5,6,748.0,776.0,28.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S12,S12,6,7,776.0,1015.0,239.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S13,S13,0,1,0.0,183.0,183.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S13,S13,1,2,183.0,212.0,29.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S13,S13,2,3,212.0,466.0,254.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S13,S13,3,4,466.0,502.0,36.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S13,S13,4,5,502.0,734.0,232.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S13,S13,5,6,734.0,765.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S13,S13,6,7,765.0,1025.0,260.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S14,S14,0,1,0.0,180.0,180.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S14,S14,1,2,180.0,212.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S14,S14,2,3,212.0,454.0,242.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S14,S14,3,4,454.0,486.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S14,S14,4,5,486.0,728.0,242.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S14,S14,5,6,728.0,758.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S14,S14,6,7,758.0,1007.0,249.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S15,S15,0,1,0.0,182.0,182.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S15,S15,1,2,182.0,213.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S15,S15,2,3,213.0,466.0,253.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S15,S15,3,4,466.0,496.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S15,S15,4,5,496.0,751.0,255.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S15,S15,5,6,751.0,784.0,33.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S15,S15,6,7,784.0,1016.0,232.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S16_a,S16,0,1,0.0,189.0,189.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S16_a,S16,1,2,189.0,226.0,37.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S16_a,S16,2,3,226.0,408.0,182.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S16_a,S16,3,4,408.0,438.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S16_b,S16,0,1,0.0,46.0,46.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S16_b,S16,1,2,46.0,76.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S16_b,S16,2,3,76.0,313.0,237.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S16_b,S16,3,4,313.0,348.0,35.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S16_b,S16,4,5,348.0,587.0,239.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S17,S17,0,1,0.0,178.0,178.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S17,S17,1,2,178.0,207.0,29.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S17,S17,2,3,207.0,466.0,259.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S17,S17,3,4,466.0,497.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S17,S17,4,5,497.0,742.0,245.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S17,S17,5,6,742.0,773.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S17,S17,6,7,773.0,1017.0,244.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S18,S18,0,1,0.0,179.0,179.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S18,S18,1,2,179.0,211.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S18,S18,2,3,211.0,454.0,243.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S18,S18,3,4,454.0,485.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S18,S18,4,5,485.0,742.0,257.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S18,S18,5,6,742.0,775.0,33.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,S18,S18,6,7,775.0,1038.0,263.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v1,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f01,f01,0,1,0.0,1093.0,1093.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f01,f01,1,2,1093.0,1289.0,196.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f01,f01,2,3,1289.0,1326.0,37.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f01,f01,3,4,1326.0,1536.0,210.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f01,f01,4,5,1536.0,1572.0,36.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f01,f01,5,6,1572.0,1774.0,202.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f01,f01,6,7,1774.0,1802.0,28.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f01,f01,7,8,1802.0,1990.0,188.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f01,f01,8,9,1990.0,2021.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f01,f01,9,10,2021.0,2217.0,196.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f01,f01,10,11,2217.0,2363.0,146.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f02,f02,0,1,0.0,678.0,678.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f02,f02,1,2,678.0,880.0,202.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f02,f02,2,3,880.0,918.0,38.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f02,f02,3,4,918.0,1098.0,180.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f02,f02,4,5,1098.0,1132.0,34.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f02,f02,5,6,1132.0,1318.0,186.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f02,f02,6,7,1318.0,1348.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f02,f02,7,8,1348.0,1556.0,208.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f02,f02,8,9,1556.0,1590.0,34.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f02,f02,9,10,1590.0,1786.0,196.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f02,f02,10,11,1786.0,2010.0,224.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f03,f03,0,1,0.0,1446.0,1446.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f03,f03,1,2,1446.0,1636.0,190.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f03,f03,2,3,1636.0,1672.0,36.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f03,f03,3,4,1672.0,1884.0,212.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f03,f03,4,5,1884.0,1926.0,42.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f03,f03,5,6,1926.0,2123.0,197.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f03,f03,6,7,2123.0,2154.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f03,f03,7,8,2154.0,2340.0,186.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f03,f03,8,9,2340.0,2373.0,33.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f03,f03,9,10,2373.0,2570.0,197.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f03,f03,10,11,2570.0,2716.0,146.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f04,f04,0,1,0.0,1.0,1.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f04,f04,1,2,1.0,89.0,88.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f04,f04,2,3,89.0,125.0,36.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f04,f04,3,4,125.0,329.0,204.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f04,f04,4,5,329.0,362.0,33.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f04,f04,5,6,362.0,557.0,195.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f04,f04,6,7,557.0,599.0,42.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f04,f04,7,8,599.0,787.0,188.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f04,f04,8,9,787.0,811.0,24.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f04,f04,9,10,811.0,1076.0,265.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f04,f04,10,11,1076.0,1205.0,129.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f05,f05,0,1,0.0,793.0,793.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f05,f05,1,2,793.0,918.0,125.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f05,f05,2,3,918.0,947.0,29.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f05,f05,3,4,947.0,1159.0,212.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f05,f05,4,5,1159.0,1192.0,33.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f05,f05,5,6,1192.0,1387.0,195.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f05,f05,6,7,1387.0,1423.0,36.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f05,f05,7,8,1423.0,1610.0,187.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f05,f05,8,9,1610.0,1647.0,37.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f05,f05,9,10,1647.0,1906.0,259.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f05,f05,10,11,1906.0,2047.0,141.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f06,f06,0,1,0.0,249.0,249.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f06,f06,1,2,249.0,482.0,233.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f06,f06,2,3,482.0,526.0,44.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f06,f06,3,4,526.0,724.0,198.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f06,f06,4,5,724.0,761.0,37.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f06,f06,5,6,761.0,962.0,201.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f06,f06,6,7,962.0,992.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f06,f06,7,8,992.0,1189.0,197.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f06,f06,8,9,1189.0,1225.0,36.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f06,f06,9,10,1225.0,1422.0,197.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f06,f06,10,11,1422.0,1563.0,141.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f07,f07,0,1,0.0,842.0,842.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f07,f07,1,2,842.0,989.0,147.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f07,f07,2,3,989.0,1025.0,36.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f07,f07,3,4,1025.0,1228.0,203.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f07,f07,4,5,1228.0,1261.0,33.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f07,f07,5,6,1261.0,1458.0,197.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f07,f07,6,7,1458.0,1489.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f07,f07,7,8,1489.0,1681.0,192.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f07,f07,8,9,1681.0,1715.0,34.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f07,f07,9,10,1715.0,1975.0,260.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f07,f07,10,11,1975.0,2113.0,138.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: invalid stress PPG/temperature; aerobic tags invalid,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f08,f08,0,1,0.0,290.0,290.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f08,f08,1,2,290.0,494.0,204.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f08,f08,2,3,494.0,528.0,34.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f08,f08,3,4,528.0,737.0,209.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f08,f08,4,5,737.0,775.0,38.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f08,f08,5,6,775.0,975.0,200.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f08,f08,6,7,975.0,1008.0,33.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f08,f08,7,8,1008.0,1191.0,183.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f08,f08,8,9,1191.0,1220.0,29.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f08,f08,9,10,1220.0,1416.0,196.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f08,f08,10,11,1416.0,1560.0,144.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f09,f09,0,1,0.0,281.0,281.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f09,f09,1,2,281.0,524.0,243.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f09,f09,2,3,524.0,566.0,42.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f09,f09,3,4,566.0,764.0,198.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f09,f09,4,5,764.0,804.0,40.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f09,f09,5,6,804.0,1002.0,198.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f09,f09,6,7,1002.0,1034.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f09,f09,7,8,1034.0,1230.0,196.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f09,f09,8,9,1230.0,1264.0,34.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f09,f09,9,10,1264.0,1452.0,188.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f09,f09,10,11,1452.0,1604.0,152.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f10,f10,0,1,0.0,93.0,93.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f10,f10,1,2,93.0,303.0,210.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f10,f10,2,3,303.0,335.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f10,f10,3,4,335.0,542.0,207.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f10,f10,4,5,542.0,574.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f10,f10,5,6,574.0,754.0,180.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f10,f10,6,7,754.0,784.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f10,f10,7,8,784.0,964.0,180.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f10,f10,8,9,964.0,994.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f10,f10,9,10,994.0,1193.0,199.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f10,f10,10,11,1193.0,1307.0,114.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f11,f11,0,1,0.0,884.0,884.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f11,f11,1,2,884.0,1084.0,200.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f11,f11,2,3,1084.0,1129.0,45.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f11,f11,3,4,1129.0,1304.0,175.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f11,f11,4,5,1304.0,1341.0,37.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f11,f11,5,6,1341.0,1524.0,183.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f11,f11,6,7,1524.0,1553.0,29.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f11,f11,7,8,1553.0,1764.0,211.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f11,f11,8,9,1764.0,1793.0,29.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f11,f11,9,10,1793.0,1989.0,196.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f11,f11,10,11,1989.0,2235.0,246.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f12,f12,0,1,0.0,711.0,711.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f12,f12,1,2,711.0,911.0,200.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f12,f12,2,3,911.0,952.0,41.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f12,f12,3,4,952.0,1129.0,177.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f12,f12,4,5,1129.0,1164.0,35.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f12,f12,5,6,1164.0,1349.0,185.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f12,f12,6,7,1349.0,1381.0,32.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f12,f12,7,8,1381.0,1587.0,206.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f12,f12,8,9,1587.0,1625.0,38.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f12,f12,9,10,1625.0,1816.0,191.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f12,f12,10,11,1816.0,2056.0,240.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,,v2,,,excluded_not_primary,excluded_by_primary_protocol,
+ANAEROBIC,f13,f13,0,1,0.0,878.0,878.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f13,f13,1,2,878.0,1075.0,197.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f13,f13,2,3,1075.0,1103.0,28.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f13,f13,3,4,1103.0,1299.0,196.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f13,f13,4,5,1299.0,1327.0,28.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f13,f13,5,6,1327.0,1576.0,249.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f13,f13,6,7,1576.0,1606.0,30.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f13,f13,7,8,1606.0,1804.0,198.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f13,f13,8,9,1804.0,1835.0,31.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f13,f13,9,10,1835.0,2022.0,187.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,
+ANAEROBIC,f13,f13,10,11,2022.0,2488.0,466.0,REVIEW_PROTOCOL_NOTEBOOK,exclude,0,0,primary exclusion: bad wrist fit reported by dataset article,v2,,,excluded_subject,excluded_subject,

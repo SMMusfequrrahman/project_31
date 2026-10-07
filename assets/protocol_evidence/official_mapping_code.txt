@@ -1,0 +1,40 @@
+def graph_multiple(signals,timeline,subject_signals,state):
+
+    plt.figure(figsize=(25,15))
+
+    keys = list(signals[subject_signals].keys())
+    keys.remove("tags")
+
+    i=1
+    
+    for key in keys:
+        plt.subplot(len(keys),1,i)
+        if i==1:
+            plt.title(subject_signals + "  -  "+state)
+        if key=='ACC':
+            acc=moving_average(signals[subject_signals][key])
+            plt.plot(acc,label=key)
+        else:
+            plt.plot(timeline[subject_signals][key],signals[subject_signals][key],label=key)
+        
+        for tag in signals[subject_signals]["tags"][1:]:
+            plt.axvline(x=tag, color='r', linestyle='-')
+
+        if state=='STRESS' and signals[subject_signals]["tags"]:
+            if 'S' in subject_signals: #first version
+                plt.axvspan(signals[subject_signals]["tags"][3], signals[subject_signals]["tags"][4], color='red', alpha=0.2) #stroop
+                plt.axvspan(signals[subject_signals]["tags"][5], signals[subject_signals]["tags"][6], color='red', alpha=0.2)# tmct
+                plt.axvspan(signals[subject_signals]["tags"][7], signals[subject_signals]["tags"][8], color='red', alpha=0.2)#real opinion
+                plt.axvspan(signals[subject_signals]["tags"][9], signals[subject_signals]["tags"][10], color='red', alpha=0.2)#opposite opinion
+                plt.axvspan(signals[subject_signals]["tags"][11], signals[subject_signals]["tags"][12], color='red', alpha=0.2)#subtract test
+
+            else: #second version
+                plt.axvspan(signals[subject_signals]["tags"][2], signals[subject_signals]["tags"][3], color='red', alpha=0.2) #tmct
+                plt.axvspan(signals[subject_signals]["tags"][4], signals[subject_signals]["tags"][5], color='red', alpha=0.2)#real opinion
+                plt.axvspan(signals[subject_signals]["tags"][6], signals[subject_signals]["tags"][7], color='red', alpha=0.2)#opposite opinion
+                plt.axvspan(signals[subject_signals]["tags"][8], signals[subject_signals]["tags"][9], color='red', alpha=0.2)#subtract test
+        
+        plt.legend()
+        plt.grid()
+        i = i+1  
+    plt.show()
